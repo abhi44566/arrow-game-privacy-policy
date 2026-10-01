@@ -1,0 +1,1595 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+  <!-- Primary SEO Metadata -->
+  <title>Arrow Game Privacy Policy | PreeTech</title>
+  <meta name="description"
+    content="Read the Privacy Policy for Arrow Game by PreeTech and learn how game data, local storage, login information and user privacy are handled.">
+  <meta name="keywords"
+    content="Arrow Game, PreeTech, Privacy Policy, Mobile Game Privacy, Family Friendly Game, Local Storage, SQLite Data">
+  <meta name="author" content="PreeTech">
+  <meta name="robots" content="index, follow">
+
+  <!-- Theme Color for Mobile Browsers -->
+  <meta name="theme-color" content="#0b132b">
+
+  <!-- Open Graph / Facebook -->
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Arrow Game Privacy Policy | PreeTech">
+  <meta property="og:description"
+    content="Read the official Privacy Policy for Arrow Game by PreeTech. Understand how game progress, local data, and privacy are protected.">
+  <meta property="og:site_name" content="Arrow Game">
+
+  <!-- Twitter Card -->
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="Arrow Game Privacy Policy | PreeTech">
+  <meta name="twitter:description"
+    content="Official Privacy Policy for Arrow Game by PreeTech. Family-friendly gaming with local storage privacy.">
+
+  <!-- Inline SVG Favicon -->
+  <link rel="icon" type="image/svg+xml"
+    href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><circle cx='50' cy='50' r='46' fill='%230b132b' stroke='%23f59e0b' stroke-width='6'/><path d='M30 65 L60 35 M60 35 L45 35 M60 35 L60 50' stroke='%23f59e0b' stroke-width='8' stroke-linecap='round' stroke-linejoin='round' fill='none'/><circle cx='50' cy='50' r='14' fill='none' stroke='%2338bdf8' stroke-width='4'/></svg>">
+
+  <!-- Google Fonts: Fredoka for cheerful game headings, Outfit for clean readable body text -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Fredoka:wght@500;600;700&family=Outfit:wght@300;400;500;600;700&display=swap"
+    rel="stylesheet">
+
+  <style>
+    /* ==========================================
+       1. DESIGN SYSTEM & CUSTOM PROPERTIES
+       ========================================== */
+    :root {
+      /* Color Palette */
+      --bg-dark: #0b132b;
+      --bg-darker: #060b1e;
+      --card-bg: rgba(22, 32, 58, 0.75);
+      --card-bg-solid: #16203a;
+      --card-border: rgba(255, 255, 255, 0.12);
+      --card-border-hover: rgba(245, 158, 11, 0.4);
+
+      --accent-gold: #f59e0b;
+      --accent-gold-light: #fbbf24;
+      --accent-gold-glow: rgba(245, 158, 11, 0.25);
+
+      --accent-blue: #38bdf8;
+      --accent-blue-deep: #0284c7;
+      --accent-cyan: #06b6d4;
+      --accent-purple: #818cf8;
+
+      --text-main: #f8fafc;
+      --text-muted: #94a3b8;
+      --text-subtle: #64748b;
+
+      --pill-bg: rgba(245, 158, 11, 0.12);
+      --pill-text: #fbbf24;
+      --pill-border: rgba(245, 158, 11, 0.3);
+
+      /* Typography */
+      --font-heading: 'Fredoka', cursive, sans-serif;
+      --font-body: 'Outfit', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+
+      /* Layout & Spacing */
+      --max-width: 1120px;
+      --header-height: 72px;
+      --radius-lg: 20px;
+      --radius-md: 12px;
+      --radius-sm: 8px;
+      --shadow-sm: 0 4px 6px -1px rgba(0, 0, 0, 0.3);
+      --shadow-lg: 0 12px 32px 0 rgba(0, 0, 0, 0.45);
+      --shadow-glow: 0 0 25px rgba(245, 158, 11, 0.15);
+
+      --transition-fast: 0.2s ease;
+      --transition-normal: 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+    }
+
+    /* Reset & Standard Rules */
+    *,
+    *::before,
+    *::after {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    html {
+      scroll-behavior: smooth;
+      font-size: 16px;
+      -webkit-text-size-adjust: 100%;
+    }
+
+    body {
+      background-color: var(--bg-dark);
+      color: var(--text-main);
+      font-family: var(--font-body);
+      line-height: 1.65;
+      font-weight: 400;
+      overflow-x: hidden;
+      background-image:
+        radial-gradient(circle at 15% 15%, rgba(56, 189, 248, 0.08) 0%, transparent 45%),
+        radial-gradient(circle at 85% 60%, rgba(245, 158, 11, 0.07) 0%, transparent 40%),
+        radial-gradient(circle at 50% 90%, rgba(129, 140, 248, 0.06) 0%, transparent 50%);
+      background-attachment: fixed;
+    }
+
+    /* Typography Defaults */
+    h1,
+    h2,
+    h3,
+    h4 {
+      font-family: var(--font-heading);
+      color: var(--text-main);
+      line-height: 1.25;
+      letter-spacing: 0.02em;
+    }
+
+    p {
+      margin-bottom: 1rem;
+      color: var(--text-muted);
+      font-size: 1.025rem;
+    }
+
+    p strong {
+      color: var(--text-main);
+      font-weight: 600;
+    }
+
+    a {
+      color: var(--accent-blue);
+      text-decoration: none;
+      transition: color var(--transition-fast);
+    }
+
+    a:hover {
+      color: var(--accent-gold-light);
+    }
+
+    ul,
+    ol {
+      margin-bottom: 1.25rem;
+      padding-left: 1.5rem;
+      color: var(--text-muted);
+    }
+
+    li {
+      margin-bottom: 0.5rem;
+    }
+
+    li::marker {
+      color: var(--accent-gold);
+    }
+
+    /* Focus States for Accessibility */
+    :focus-visible {
+      outline: 3px solid var(--accent-gold);
+      outline-offset: 3px;
+      border-radius: 4px;
+    }
+
+    /* ==========================================
+       2. HEADER & NAVIGATION
+       ========================================== */
+    .site-header {
+      position: sticky;
+      top: 0;
+      z-index: 100;
+      height: var(--header-height);
+      background: rgba(11, 19, 43, 0.88);
+      backdrop-filter: blur(16px);
+      -webkit-backdrop-filter: blur(16px);
+      border-bottom: 1px solid var(--card-border);
+      display: flex;
+      align-items: center;
+    }
+
+    .header-container {
+      max-width: var(--max-width);
+      width: 90%;
+      margin: 0 auto;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+    }
+
+    .brand-logo {
+      display: flex;
+      align-items: center;
+      gap: 12px;
+      text-decoration: none;
+    }
+
+    .logo-icon-wrap {
+      width: 44px;
+      height: 44px;
+      background: linear-gradient(135deg, #1e293b, #0f172a);
+      border: 2px solid var(--accent-gold);
+      border-radius: 12px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      box-shadow: var(--shadow-glow);
+      transition: transform var(--transition-fast);
+    }
+
+    .brand-logo:hover .logo-icon-wrap {
+      transform: scale(1.06) rotate(-3deg);
+    }
+
+    .logo-icon-wrap svg {
+      width: 26px;
+      height: 26px;
+      fill: none;
+      stroke: var(--accent-gold);
+      stroke-width: 2.5;
+      stroke-linecap: round;
+      stroke-linejoin: round;
+    }
+
+    .brand-text-group {
+      display: flex;
+      flex-direction: column;
+    }
+
+    .brand-title {
+      font-family: var(--font-heading);
+      font-size: 1.35rem;
+      font-weight: 700;
+      color: var(--text-main);
+      line-height: 1.1;
+    }
+
+    .brand-subtitle {
+      font-size: 0.75rem;
+      color: var(--accent-blue);
+      font-weight: 600;
+      letter-spacing: 0.08em;
+      text-transform: uppercase;
+    }
+
+    .header-actions {
+      display: flex;
+      align-items: center;
+      gap: 12px;
+    }
+
+    .btn-header {
+      display: inline-flex;
+      align-items: center;
+      gap: 8px;
+      padding: 8px 16px;
+      background: var(--pill-bg);
+      border: 1px solid var(--pill-border);
+      color: var(--pill-text);
+      font-family: var(--font-body);
+      font-weight: 600;
+      font-size: 0.875rem;
+      border-radius: 30px;
+      cursor: pointer;
+      transition: all var(--transition-fast);
+    }
+
+    .btn-header:hover {
+      background: var(--accent-gold);
+      color: #000;
+      border-color: var(--accent-gold);
+      box-shadow: 0 0 15px rgba(245, 158, 11, 0.4);
+    }
+
+    .btn-header svg {
+      width: 16px;
+      height: 16px;
+    }
+
+    /* ==========================================
+       3. HERO SECTION
+       ========================================== */
+    .hero-section {
+      padding: 50px 0 40px;
+      text-align: center;
+      position: relative;
+    }
+
+    .hero-container {
+      max-width: 840px;
+      margin: 0 auto;
+      padding: 0 20px;
+    }
+
+    .badge-pill {
+      display: inline-flex;
+      align-items: center;
+      gap: 8px;
+      padding: 6px 16px;
+      background: rgba(56, 189, 248, 0.1);
+      border: 1px solid rgba(56, 189, 248, 0.3);
+      color: var(--accent-blue);
+      border-radius: 50px;
+      font-size: 0.85rem;
+      font-weight: 600;
+      margin-bottom: 20px;
+      letter-spacing: 0.03em;
+    }
+
+    .badge-pill svg {
+      width: 16px;
+      height: 16px;
+    }
+
+    .hero-title {
+      font-size: 2.75rem;
+      font-weight: 700;
+      margin-bottom: 16px;
+      background: linear-gradient(135deg, #ffffff 0%, #cbd5e1 50%, #f59e0b 100%);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      line-height: 1.15;
+    }
+
+    .hero-desc {
+      font-size: 1.15rem;
+      color: var(--text-muted);
+      max-width: 700px;
+      margin: 0 auto 28px;
+    }
+
+    .hero-meta-strip {
+      display: flex;
+      flex-wrap: wrap;
+      align-items: center;
+      justify-content: center;
+      gap: 16px;
+    }
+
+    .meta-item {
+      display: flex;
+      align-items: center;
+      gap: 8px;
+      font-size: 0.9rem;
+      color: var(--text-muted);
+      background: rgba(255, 255, 255, 0.04);
+      padding: 8px 16px;
+      border-radius: 20px;
+      border: 1px solid var(--card-border);
+    }
+
+    .meta-item svg {
+      width: 16px;
+      height: 16px;
+      color: var(--accent-gold);
+    }
+
+    /* ==========================================
+       4. MAIN LAYOUT (SIDEBAR & CONTENT)
+       ========================================== */
+    .layout-wrapper {
+      max-width: var(--max-width);
+      width: 90%;
+      margin: 0 auto 80px;
+      display: grid;
+      grid-template-columns: 280px 1fr;
+      gap: 36px;
+      align-items: start;
+    }
+
+    /* Sidebar Navigation (TOC) */
+    .toc-sidebar {
+      position: sticky;
+      top: calc(var(--header-height) + 24px);
+      background: var(--card-bg);
+      border: 1px solid var(--card-border);
+      border-radius: var(--radius-lg);
+      padding: 24px 20px;
+      backdrop-filter: blur(12px);
+      -webkit-backdrop-filter: blur(12px);
+      box-shadow: var(--shadow-sm);
+      max-height: calc(100vh - var(--header-height) - 48px);
+      overflow-y: auto;
+    }
+
+    /* Custom scrollbar for TOC */
+    .toc-sidebar::-webkit-scrollbar {
+      width: 5px;
+    }
+
+    .toc-sidebar::-webkit-scrollbar-track {
+      background: transparent;
+    }
+
+    .toc-sidebar::-webkit-scrollbar-thumb {
+      background: rgba(255, 255, 255, 0.15);
+      border-radius: 4px;
+    }
+
+    .toc-header {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      margin-bottom: 16px;
+      padding-bottom: 12px;
+      border-bottom: 1px solid var(--card-border);
+    }
+
+    .toc-title {
+      font-size: 1.05rem;
+      font-weight: 700;
+      color: var(--text-main);
+      display: flex;
+      align-items: center;
+      gap: 8px;
+    }
+
+    .toc-title svg {
+      width: 18px;
+      height: 18px;
+      color: var(--accent-gold);
+    }
+
+    .toc-list {
+      list-style: none;
+      padding: 0;
+      margin: 0;
+    }
+
+    .toc-list li {
+      margin-bottom: 4px;
+    }
+
+    .toc-link {
+      display: block;
+      padding: 8px 12px;
+      font-size: 0.88rem;
+      color: var(--text-muted);
+      border-radius: var(--radius-sm);
+      transition: all var(--transition-fast);
+      white-space: nowrap;
+      overflow: hidden;
+      text-overflow: ellipsis;
+      border-left: 2px solid transparent;
+    }
+
+    .toc-link:hover {
+      color: var(--text-main);
+      background: rgba(255, 255, 255, 0.05);
+    }
+
+    .toc-link.active {
+      color: var(--accent-gold);
+      font-weight: 600;
+      background: rgba(245, 158, 11, 0.1);
+      border-left-color: var(--accent-gold);
+    }
+
+    /* Mobile TOC Accordion Button (Hidden on Desktop) */
+    .mobile-toc-toggle {
+      display: none;
+      width: 100%;
+      padding: 14px 20px;
+      background: var(--card-bg-solid);
+      border: 1px solid var(--card-border);
+      border-radius: var(--radius-md);
+      color: var(--text-main);
+      font-family: var(--font-heading);
+      font-size: 1rem;
+      font-weight: 600;
+      text-align: left;
+      cursor: pointer;
+      align-items: center;
+      justify-content: space-between;
+      margin-bottom: 24px;
+    }
+
+    .mobile-toc-toggle svg {
+      width: 20px;
+      height: 20px;
+      transition: transform var(--transition-fast);
+    }
+
+    .mobile-toc-toggle.open svg {
+      transform: rotate(180deg);
+    }
+
+    /* ==========================================
+       5. CONTENT CARDS & SECTIONS
+       ========================================== */
+    .content-area {
+      display: flex;
+      flex-direction: column;
+      gap: 28px;
+    }
+
+    .policy-card {
+      background: var(--card-bg);
+      border: 1px solid var(--card-border);
+      border-radius: var(--radius-lg);
+      padding: 32px;
+      backdrop-filter: blur(12px);
+      -webkit-backdrop-filter: blur(12px);
+      box-shadow: var(--shadow-sm);
+      transition: border-color var(--transition-fast), box-shadow var(--transition-fast);
+      position: relative;
+    }
+
+    .policy-card:hover {
+      border-color: var(--card-border-hover);
+      box-shadow: 0 8px 24px rgba(0, 0, 0, 0.35);
+    }
+
+    .card-header-group {
+      display: flex;
+      align-items: center;
+      gap: 14px;
+      margin-bottom: 20px;
+      padding-bottom: 14px;
+      border-bottom: 1px solid rgba(255, 255, 255, 0.08);
+    }
+
+    .card-icon {
+      width: 44px;
+      height: 44px;
+      border-radius: var(--radius-md);
+      background: linear-gradient(135deg, rgba(245, 158, 11, 0.15), rgba(56, 189, 248, 0.15));
+      border: 1px solid rgba(245, 158, 11, 0.3);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-shrink: 0;
+    }
+
+    .card-icon svg {
+      width: 22px;
+      height: 22px;
+      color: var(--accent-gold);
+    }
+
+    .card-title {
+      font-size: 1.5rem;
+      font-weight: 700;
+      color: var(--text-main);
+    }
+
+    .card-title span.section-num {
+      color: var(--accent-gold);
+      margin-right: 6px;
+    }
+
+    .sub-heading {
+      font-size: 1.15rem;
+      font-weight: 600;
+      color: var(--accent-blue);
+      margin: 20px 0 10px;
+      display: flex;
+      align-items: center;
+      gap: 8px;
+    }
+
+    /* Important Alert Boxes */
+    .notice-box {
+      background: rgba(245, 158, 11, 0.08);
+      border: 1px stroke rgba(245, 158, 11, 0.3);
+      border-left: 4px solid var(--accent-gold);
+      border-radius: 0 var(--radius-md) var(--radius-md) 0;
+      padding: 16px 20px;
+      margin: 18px 0;
+    }
+
+    .notice-box.info {
+      background: rgba(56, 189, 248, 0.08);
+      border-left-color: var(--accent-blue);
+    }
+
+    .notice-title {
+      font-family: var(--font-heading);
+      font-size: 0.95rem;
+      font-weight: 700;
+      color: var(--accent-gold-light);
+      margin-bottom: 6px;
+      display: flex;
+      align-items: center;
+      gap: 6px;
+      text-transform: uppercase;
+      letter-spacing: 0.04em;
+    }
+
+    .notice-box.info .notice-title {
+      color: var(--accent-blue);
+    }
+
+    .notice-title svg {
+      width: 16px;
+      height: 16px;
+    }
+
+    .notice-box p {
+      margin-bottom: 0;
+      font-size: 0.95rem;
+      color: var(--text-main);
+    }
+
+    /* Feature List Styling */
+    .feature-list {
+      list-style: none;
+      padding-left: 0;
+    }
+
+    .feature-list li {
+      position: relative;
+      padding-left: 28px;
+      margin-bottom: 10px;
+      font-size: 1rem;
+    }
+
+    .feature-list li::before {
+      content: '';
+      position: absolute;
+      left: 4px;
+      top: 10px;
+      width: 8px;
+      height: 8px;
+      background: var(--accent-gold);
+      border-radius: 50%;
+      box-shadow: 0 0 8px var(--accent-gold);
+    }
+
+    .feature-list.check-list li::before {
+      content: '✓';
+      position: absolute;
+      left: 2px;
+      top: 0;
+      width: auto;
+      height: auto;
+      background: none;
+      box-shadow: none;
+      color: #10b981;
+      font-weight: bold;
+      font-size: 1.1rem;
+    }
+
+    /* ==========================================
+       6. SUMMARY CARD & CONTACT CARD
+       ========================================== */
+    .summary-card {
+      background: linear-gradient(135deg, rgba(22, 32, 58, 0.95), rgba(15, 23, 42, 0.95));
+      border: 2px solid var(--accent-gold);
+      box-shadow: var(--shadow-glow);
+    }
+
+    .contact-card {
+      background: linear-gradient(135deg, rgba(30, 41, 59, 0.9), rgba(15, 23, 42, 0.9));
+      border: 1px solid var(--accent-blue);
+    }
+
+    .email-box {
+      background: rgba(0, 0, 0, 0.3);
+      border: 1px dashed var(--accent-gold);
+      border-radius: var(--radius-md);
+      padding: 16px 20px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      flex-wrap: wrap;
+      gap: 12px;
+      margin-top: 16px;
+    }
+
+    .email-text {
+      font-family: monospace;
+      font-size: 1.05rem;
+      color: var(--accent-gold-light);
+      font-weight: 600;
+      word-break: break-all;
+    }
+
+    .copy-badge {
+      background: var(--pill-bg);
+      color: var(--pill-text);
+      border: 1px solid var(--pill-border);
+      padding: 4px 12px;
+      border-radius: 20px;
+      font-size: 0.75rem;
+      font-weight: 700;
+      letter-spacing: 0.05em;
+      text-transform: uppercase;
+    }
+
+    /* ==========================================
+       7. FOOTER & BACK TO TOP
+       ========================================== */
+    .site-footer {
+      background: var(--bg-darker);
+      border-top: 1px solid var(--card-border);
+      padding: 40px 0 30px;
+      color: var(--text-subtle);
+      font-size: 0.9rem;
+    }
+
+    .footer-container {
+      max-width: var(--max-width);
+      width: 90%;
+      margin: 0 auto;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 20px;
+      text-align: center;
+    }
+
+    .footer-brand {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      font-family: var(--font-heading);
+      font-size: 1.25rem;
+      color: var(--text-main);
+    }
+
+    .footer-links {
+      display: flex;
+      gap: 20px;
+      flex-wrap: wrap;
+      justify-content: center;
+    }
+
+    .footer-links a {
+      color: var(--text-muted);
+      font-size: 0.9rem;
+    }
+
+    .footer-links a:hover {
+      color: var(--accent-gold);
+    }
+
+    .back-to-top {
+      position: fixed;
+      bottom: 28px;
+      right: 28px;
+      width: 48px;
+      height: 48px;
+      background: var(--card-bg-solid);
+      border: 1px solid var(--accent-gold);
+      color: var(--accent-gold);
+      border-radius: 50%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      cursor: pointer;
+      opacity: 0;
+      visibility: hidden;
+      transform: translateY(10px);
+      transition: all var(--transition-normal);
+      z-index: 99;
+      box-shadow: 0 4px 16px rgba(0, 0, 0, 0.5);
+    }
+
+    .back-to-top.visible {
+      opacity: 1;
+      visibility: visible;
+      transform: translateY(0);
+    }
+
+    .back-to-top:hover {
+      background: var(--accent-gold);
+      color: #000;
+      box-shadow: 0 0 20px rgba(245, 158, 11, 0.5);
+    }
+
+    .back-to-top svg {
+      width: 22px;
+      height: 22px;
+    }
+
+    /* ==========================================
+       8. RESPONSIVE BREAKPOINTS
+       ========================================== */
+    @media (max-width: 992px) {
+      .layout-wrapper {
+        grid-template-columns: 1fr;
+      }
+
+      .toc-sidebar {
+        display: none;
+      }
+
+      .toc-sidebar.mobile-open {
+        display: block;
+        position: static;
+        max-height: none;
+        margin-bottom: 28px;
+      }
+
+      .mobile-toc-toggle {
+        display: flex;
+      }
+
+      .hero-title {
+        font-size: 2.2rem;
+      }
+
+      .policy-card {
+        padding: 24px 20px;
+      }
+    }
+
+    @media (max-width: 576px) {
+      .header-container {
+        width: 92%;
+      }
+
+      .brand-title {
+        font-size: 1.15rem;
+      }
+
+      .hero-section {
+        padding: 32px 0 24px;
+      }
+
+      .hero-title {
+        font-size: 1.85rem;
+      }
+
+      .hero-desc {
+        font-size: 1rem;
+      }
+
+      .card-title {
+        font-size: 1.25rem;
+      }
+
+      .policy-card {
+        padding: 20px 16px;
+        border-radius: var(--radius-md);
+      }
+
+      .back-to-top {
+        bottom: 20px;
+        right: 20px;
+        width: 42px;
+        height: 42px;
+      }
+    }
+
+    /* Reduced Motion Accessibility */
+    @media (prefers-reduced-motion: reduce) {
+      html {
+        scroll-behavior: auto;
+      }
+
+      *,
+      *::before,
+      *::after {
+        animation-duration: 0.01ms !important;
+        transition-duration: 0.01ms !important;
+      }
+    }
+
+    /* Print Stylesheet */
+    @media print {
+      body {
+        background: #fff;
+        color: #000;
+      }
+
+      .site-header,
+      .toc-sidebar,
+      .mobile-toc-toggle,
+      .back-to-top,
+      .btn-header {
+        display: none !important;
+      }
+
+      .layout-wrapper {
+        display: block;
+        width: 100%;
+        margin: 0;
+      }
+
+      .policy-card {
+        background: #fff;
+        border: 1px solid #ccc;
+        box-shadow: none;
+        color: #000;
+        page-break-inside: avoid;
+        margin-bottom: 20px;
+      }
+
+      .card-title,
+      h1,
+      h2,
+      h3 {
+        color: #000 !important;
+      }
+
+      p,
+      li {
+        color: #222 !important;
+      }
+    }
+  </style>
+</head>
+
+<body>
+
+  <!-- Hidden SVG Sprite Definitions -->
+  <svg style="display: none;">
+    <symbol id="icon-target" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+      stroke-linecap="round" stroke-linejoin="round">
+      <circle cx="12" cy="12" r="10"></circle>
+      <circle cx="12" cy="12" r="6"></circle>
+      <circle cx="12" cy="12" r="2"></circle>
+      <path d="M12 2v2M12 20v2M2 12h2M20 12h2"></path>
+    </symbol>
+    <symbol id="icon-shield" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+      stroke-linecap="round" stroke-linejoin="round">
+      <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"></path>
+    </symbol>
+    <symbol id="icon-database" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+      stroke-linecap="round" stroke-linejoin="round">
+      <ellipse cx="12" cy="5" rx="9" ry="3"></ellipse>
+      <path d="M21 12c0 1.66-4 3-9 3s-9-1.34-9-3"></path>
+      <path d="M3 5v14c0 1.66 4 3 9 3s9-1.34 9-3V5"></path>
+    </symbol>
+    <symbol id="icon-lock" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+      stroke-linejoin="round">
+      <rect x="3" y="11" width="18" height="11" rx="2" ry="2"></rect>
+      <path d="M7 11V7a5 5 0 0 1 10 0v4"></path>
+    </symbol>
+    <symbol id="icon-user-check" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+      stroke-linecap="round" stroke-linejoin="round">
+      <path d="M16 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"></path>
+      <circle cx="8.5" cy="7" r="4"></circle>
+      <polyline points="17 11 19 13 23 9"></polyline>
+    </symbol>
+    <symbol id="icon-eye-off" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+      stroke-linecap="round" stroke-linejoin="round">
+      <path
+        d="M17.94 17.94A10.07 10.07 0 0 1 12 20c-7 0-11-8-11-8a18.45 18.45 0 0 1 5.06-5.94M9.9 4.24A9.12 9.12 0 0 1 12 4c7 0 11 8 11 8a18.5 18.5 0 0 1-2.16 3.19m-6.72-1.07a3 3 0 1 1-4.24-4.24">
+      </path>
+      <line x1="1" y1="1" x2="23" y2="23"></line>
+    </symbol>
+    <symbol id="icon-smile" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+      stroke-linecap="round" stroke-linejoin="round">
+      <circle cx="12" cy="12" r="10"></circle>
+      <path d="M8 14s1.5 2 4 2 4-2 4-2"></path>
+      <line x1="9" y1="9" x2="9.01" y2="9"></line>
+      <line x1="15" y1="9" x2="15.01" y2="9"></line>
+    </symbol>
+    <symbol id="icon-alert" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+      stroke-linecap="round" stroke-linejoin="round">
+      <path d="M10.29 3.86L1.82 18a2 2 0 0 0 1.71 3h16.94a2 2 0 0 0 1.71-3L13.71 3.86a2 2 0 0 0-3.42 0z"></path>
+      <line x1="12" y1="9" x2="12" y2="13"></line>
+      <line x1="12" y1="17" x2="12.01" y2="17"></line>
+    </symbol>
+    <symbol id="icon-mail" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+      stroke-linejoin="round">
+      <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path>
+      <polyline points="22,6 12,13 2,6"></polyline>
+    </symbol>
+    <symbol id="icon-check-circle" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+      stroke-linecap="round" stroke-linejoin="round">
+      <path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"></path>
+      <polyline points="22 4 12 14.01 9 11.01"></polyline>
+    </symbol>
+    <symbol id="icon-print" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+      stroke-linecap="round" stroke-linejoin="round">
+      <polyline points="6 9 6 2 18 2 18 9"></polyline>
+      <path d="M6 18H4a2 2 0 0 1-2-2v-5a2 2 0 0 1 2-2h16a2 2 0 0 1 2 2v5a2 2 0 0 1-2 2h-2"></path>
+      <rect x="6" y="14" width="12" height="8"></rect>
+    </symbol>
+    <symbol id="icon-chevron-down" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+      stroke-linecap="round" stroke-linejoin="round">
+      <polyline points="6 9 12 15 18 9"></polyline>
+    </symbol>
+    <symbol id="icon-arrow-up" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+      stroke-linecap="round" stroke-linejoin="round">
+      <line x1="12" y1="19" x2="12" y2="5"></line>
+      <polyline points="5 12 12 5 19 12"></polyline>
+    </symbol>
+  </svg>
+
+  <!-- Header -->
+  <header class="site-header">
+    <div class="header-container">
+      <a href="#" class="brand-logo" aria-label="Arrow Game Home">
+        <div class="logo-icon-wrap">
+          <svg>
+            <use href="#icon-target" />
+          </svg>
+        </div>
+        <div class="brand-text-group">
+          <span class="brand-title">Arrow Game</span>
+          <span class="brand-subtitle">by PreeTech</span>
+        </div>
+      </a>
+
+      <div class="header-actions">
+        <button class="btn-header" onclick="window.print()" title="Print Privacy Policy">
+          <svg>
+            <use href="#icon-print" />
+          </svg>
+          <span>Print Policy</span>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <!-- Hero Section -->
+  <section class="hero-section">
+    <div class="hero-container">
+      <div class="badge-pill">
+        <svg>
+          <use href="#icon-shield" />
+        </svg>
+        <span>Family-Friendly & Local Data Privacy</span>
+      </div>
+      <h1 class="hero-title">Privacy Policy</h1>
+      <p class="hero-desc">
+        Welcome to <strong>Arrow Game</strong>, developed and published by <strong>PreeTech</strong>.
+        Your privacy is important to us. Learn how our game transparently handles your data.
+      </p>
+
+      <div class="hero-meta-strip">
+        <div class="meta-item">
+          <svg>
+            <use href="#icon-check-circle" />
+          </svg>
+          <span>Effective Date: <strong>October 1, 2026</strong></span>
+        </div>
+        <div class="meta-item">
+          <svg>
+            <use href="#icon-database" />
+          </svg>
+          <span>Storage: <strong>Local Device / SQLite</strong></span>
+        </div>
+        <div class="meta-item">
+          <svg>
+            <use href="#icon-eye-off" />
+          </svg>
+          <span>Ad-Free Experience</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Main Layout -->
+  <div class="layout-wrapper">
+
+    <!-- Mobile Table of Contents Toggle -->
+    <button class="mobile-toc-toggle" id="mobileTocBtn" aria-expanded="false" aria-controls="mobileTocContainer">
+      <span>Table of Contents</span>
+      <svg>
+        <use href="#icon-chevron-down" />
+      </svg>
+    </button>
+
+    <!-- Table of Contents Sidebar -->
+    <aside class="toc-sidebar" id="tocSidebar" aria-label="Table of Contents">
+      <div class="toc-header">
+        <span class="toc-title">
+          <svg>
+            <use href="#icon-target" />
+          </svg>
+          Navigation
+        </span>
+      </div>
+      <nav>
+        <ul class="toc-list" id="tocList">
+          <li><a href="#info-handled" class="toc-link">1. Information We Handle</a></li>
+          <li><a href="#local-storage" class="toc-link">2. Local Data Storage</a></li>
+          <li><a href="#data-collection" class="toc-link">3. Data Collection</a></li>
+          <li><a href="#data-sharing" class="toc-link">4. Data Sharing</a></li>
+          <li><a href="#advertising" class="toc-link">5. Advertising</a></li>
+          <li><a href="#analytics" class="toc-link">6. Analytics and Tracking</a></li>
+          <li><a href="#childrens-privacy" class="toc-link">7. Children's Privacy</a></li>
+          <li><a href="#data-security" class="toc-link">8. Data Security</a></li>
+          <li><a href="#data-retention" class="toc-link">9. Data Retention</a></li>
+          <li><a href="#account-login" class="toc-link">10. Account & Login Data</a></li>
+          <li><a href="#third-party" class="toc-link">11. Third-Party Services</a></li>
+          <li><a href="#permissions" class="toc-link">12. Permissions</a></li>
+          <li><a href="#policy-changes" class="toc-link">13. Changes to Policy</a></li>
+          <li><a href="#contact-us" class="toc-link">14. Contact Us</a></li>
+          <li><a href="#summary-section" class="toc-link">15. Summary</a></li>
+        </ul>
+      </nav>
+    </aside>
+
+    <!-- Main Content Area -->
+    <main class="content-area">
+
+      <!-- Welcome Intro -->
+      <article class="policy-card">
+        <p>
+          Welcome to <strong>Arrow Game</strong>, developed and published by <strong>PreeTech</strong>.
+        </p>
+        <p>
+          Your privacy is important to us. This Privacy Policy explains how Arrow Game handles information when you use
+          our mobile application.
+        </p>
+        <p>
+          Arrow Game is designed as a lightweight, family-friendly game with a focus on simple gameplay and local data
+          storage.
+        </p>
+        <p>
+          By using Arrow Game, you agree to the practices described in this Privacy Policy.
+        </p>
+      </article>
+
+      <!-- 1. Information We Handle -->
+      <article class="policy-card" id="info-handled">
+        <div class="card-header-group">
+          <div class="card-icon"><svg>
+              <use href="#icon-user-check" />
+            </svg></div>
+          <h2 class="card-title"><span class="section-num">1.</span> Information We Handle</h2>
+        </div>
+        <p>
+          Arrow Game may handle limited information required to provide the game's functionality. Depending on how you
+          use the application, this may include:
+        </p>
+
+        <h3 class="sub-heading">Game Information</h3>
+        <p>The application may store:</p>
+        <ul class="feature-list">
+          <li>Game scores</li>
+          <li>Level progress</li>
+          <li>Completed levels</li>
+          <li>Difficulty/progression information</li>
+          <li>Game settings</li>
+          <li>Audio preferences</li>
+          <li>Other gameplay-related preferences</li>
+        </ul>
+        <p>This information is primarily used to provide and maintain your gameplay experience.</p>
+
+        <h3 class="sub-heading">Login Information</h3>
+        <p>
+          If the application asks you to enter a mobile phone number for player identification or login, the number may
+          be stored locally on the device for the purpose of maintaining the player's local game session.
+        </p>
+        <p>
+          Arrow Game does not use the phone number for advertising or selling personal information.
+        </p>
+
+        <div class="notice-box info">
+          <div class="notice-title">
+            <svg>
+              <use href="#icon-alert" />
+            </svg> Important Transparency Note
+          </div>
+          <p>
+            If a future update enables network-based login or OTP verification, phone number transmission details will
+            be updated transparently in this section.
+          </p>
+        </div>
+      </article>
+
+      <!-- 2. Local Data Storage -->
+      <article class="policy-card" id="local-storage">
+        <div class="card-header-group">
+          <div class="card-icon"><svg>
+              <use href="#icon-database" />
+            </svg></div>
+          <h2 class="card-title"><span class="section-num">2.</span> Local Data Storage</h2>
+        </div>
+        <p>
+          Arrow Game uses local storage/database technologies, including <strong>SQLite</strong> where applicable, to
+          maintain game information on the player's device.
+        </p>
+        <p>Examples include:</p>
+        <ul class="feature-list">
+          <li>Game progress</li>
+          <li>Scores</li>
+          <li>Level information</li>
+          <li>Preferences</li>
+          <li>Local player/session information</li>
+        </ul>
+        <p>This allows the game to maintain gameplay information between sessions.</p>
+        <p>
+          The locally stored information is intended to remain on the player's device unless the application or
+          operating system provides functionality that causes the data to be removed or reset.
+        </p>
+        <p>
+          If the application is uninstalled, locally stored application data may also be removed by the operating
+          system.
+        </p>
+      </article>
+
+      <!-- 3. Data Collection -->
+      <article class="policy-card" id="data-collection">
+        <div class="card-header-group">
+          <div class="card-icon"><svg>
+              <use href="#icon-eye-off" />
+            </svg></div>
+          <h2 class="card-title"><span class="section-num">3.</span> Data Collection</h2>
+        </div>
+        <p>
+          Arrow Game is designed to minimize data collection. The game does not intentionally collect unnecessary
+          personal information.
+        </p>
+        <p>The application <strong>does not intentionally collect</strong>:</p>
+        <ul class="feature-list">
+          <li>Contact lists or address books</li>
+          <li>Photos or videos</li>
+          <li>Precise location information</li>
+          <li>Device contacts</li>
+          <li>Microphone recordings</li>
+          <li>Camera images</li>
+          <li>SMS messages</li>
+        </ul>
+        <p>
+          unless a future version explicitly introduces a feature that requires such information.
+        </p>
+      </article>
+
+      <!-- 4. Data Sharing -->
+      <article class="policy-card" id="data-sharing">
+        <div class="card-header-group">
+          <div class="card-icon"><svg>
+              <use href="#icon-shield" />
+            </svg></div>
+          <h2 class="card-title"><span class="section-num">4.</span> Data Sharing</h2>
+        </div>
+        <p>
+          <strong>We do not sell or rent users' personal information.</strong>
+        </p>
+        <p>
+          Arrow Game is not designed to share users' personal information with third parties for advertising purposes.
+        </p>
+        <p>
+          Gameplay information stored locally on the device is not intentionally shared with external parties.
+        </p>
+        <p>
+          If any future version introduces third-party services, analytics, advertising, cloud synchronization,
+          authentication providers, payment services, or other external services that process user information, this
+          Privacy Policy will be updated accordingly.
+        </p>
+      </article>
+
+      <!-- 5. Advertising -->
+      <article class="policy-card" id="advertising">
+        <div class="card-header-group">
+          <div class="card-icon"><svg>
+              <use href="#icon-target" />
+            </svg></div>
+          <h2 class="card-title"><span class="section-num">5.</span> Advertising</h2>
+        </div>
+        <p>
+          The current version of Arrow Game is intended to provide an ad-free gameplay experience.
+        </p>
+        <p>
+          The application does not intentionally use personal information for personalized advertising.
+        </p>
+        <p>
+          If advertising is introduced in a future version, the Privacy Policy will be updated to explain the relevant
+          advertising technologies and data practices.
+        </p>
+      </article>
+
+      <!-- 6. Analytics and Tracking -->
+      <article class="policy-card" id="analytics">
+        <div class="card-header-group">
+          <div class="card-icon"><svg>
+              <use href="#icon-target" />
+            </svg></div>
+          <h2 class="card-title"><span class="section-num">6.</span> Analytics and Tracking</h2>
+        </div>
+        <p>
+          Arrow Game is designed without unnecessary tracking.
+        </p>
+        <p>
+          The application does not intentionally track users' activities across other applications or websites.
+        </p>
+        <p>
+          The application does not intentionally create advertising profiles based on users' gameplay activity.
+        </p>
+        <p>
+          If analytics or other tracking technologies are introduced in a future version, this Privacy Policy will be
+          updated before or when those features are introduced.
+        </p>
+      </article>
+
+      <!-- 7. Children's Privacy -->
+      <article class="policy-card" id="childrens-privacy">
+        <div class="card-header-group">
+          <div class="card-icon"><svg>
+              <use href="#icon-smile" />
+            </svg></div>
+          <h2 class="card-title"><span class="section-num">7.</span> Children's Privacy</h2>
+        </div>
+        <p>
+          Arrow Game is designed to be family-friendly and suitable for children and players of different ages.
+        </p>
+        <p>
+          We do not intentionally request children to provide unnecessary personal information. The game experience is
+          designed to minimize the amount of personal information required to play.
+        </p>
+        <p>
+          Parents or guardians who have questions about information handled by the application may contact us using the
+          contact information provided below.
+        </p>
+        <p>
+          If a parent or guardian believes that a child has provided personal information that should not have been
+          provided, please contact us so that we can review the matter.
+        </p>
+      </article>
+
+      <!-- 8. Data Security -->
+      <article class="policy-card" id="data-security">
+        <div class="card-header-group">
+          <div class="card-icon"><svg>
+              <use href="#icon-lock" />
+            </svg></div>
+          <h2 class="card-title"><span class="section-num">8.</span> Data Security</h2>
+        </div>
+        <p>
+          We take reasonable steps to protect information handled by the application.
+        </p>
+        <p>
+          Game-related information stored locally is handled using the storage mechanisms implemented by the application
+          and the security capabilities provided by the device operating system.
+        </p>
+        <p>
+          We do not claim that any electronic storage method or transmission method is completely secure.
+        </p>
+      </article>
+
+      <!-- 9. Data Retention -->
+      <article class="policy-card" id="data-retention">
+        <div class="card-header-group">
+          <div class="card-icon"><svg>
+              <use href="#icon-database" />
+            </svg></div>
+          <h2 class="card-title"><span class="section-num">9.</span> Data Retention</h2>
+        </div>
+        <p>
+          Information stored locally by Arrow Game may remain on the player's device until:
+        </p>
+        <ul class="feature-list">
+          <li>The player removes it through available application functionality;</li>
+          <li>The application clears the relevant information;</li>
+          <li>The application is uninstalled; or</li>
+          <li>The device operating system removes the application data.</li>
+        </ul>
+        <p>
+          Because much of the game's data is stored locally, <strong>PreeTech</strong> does not maintain a central copy
+          of ordinary gameplay progress unless a future version specifically introduces a cloud-based feature.
+        </p>
+      </article>
+
+      <!-- 10. Account and Login Data -->
+      <article class="policy-card" id="account-login">
+        <div class="card-header-group">
+          <div class="card-icon"><svg>
+              <use href="#icon-user-check" />
+            </svg></div>
+          <h2 class="card-title"><span class="section-num">10.</span> Account and Login Data</h2>
+        </div>
+        <p>
+          If Arrow Game provides a phone-number-based login or player identification feature, the information required
+          for that feature may be stored or processed according to the actual implementation of the application.
+        </p>
+        <p>
+          The login information is intended to support access to the game and maintain the player's session.
+        </p>
+        <p>
+          It is not intended to be used for selling personal information or targeted advertising.
+        </p>
+      </article>
+
+      <!-- 11. Third-Party Services -->
+      <article class="policy-card" id="third-party">
+        <div class="card-header-group">
+          <div class="card-icon"><svg>
+              <use href="#icon-shield" />
+            </svg></div>
+          <h2 class="card-title"><span class="section-num">11.</span> Third-Party Services</h2>
+        </div>
+        <p>
+          The current Arrow Game privacy practices reflect the services actually included in the released application.
+        </p>
+        <p>
+          If the application incorporates third-party services in future releases (such as Firebase, analytics,
+          advertising networks, crash reporting, OTP/SMS providers, cloud databases, or payment providers), those
+          services will be explicitly disclosed here with details on what information they process and why.
+        </p>
+      </article>
+
+      <!-- 12. Permissions -->
+      <article class="policy-card" id="permissions">
+        <div class="card-header-group">
+          <div class="card-icon"><svg>
+              <use href="#icon-lock" />
+            </svg></div>
+          <h2 class="card-title"><span class="section-num">12.</span> Permissions</h2>
+        </div>
+        <p>
+          Arrow Game requests only the permissions required for its actual functionality.
+        </p>
+        <p>
+          The application is not intended to access unnecessary personal information. Any permissions used by the
+          application are clearly connected to a feature of the game.
+        </p>
+        <p>
+          If permissions change in a future release, this Privacy Policy will be reviewed and updated accordingly.
+        </p>
+      </article>
+
+      <!-- 13. Changes to This Privacy Policy -->
+      <article class="policy-card" id="policy-changes">
+        <div class="card-header-group">
+          <div class="card-icon"><svg>
+              <use href="#icon-alert" />
+            </svg></div>
+          <h2 class="card-title"><span class="section-num">13.</span> Changes to This Privacy Policy</h2>
+        </div>
+        <p>
+          We may update this Privacy Policy from time to time to reflect changes to the application, legal requirements,
+          or our data practices.
+        </p>
+        <p>
+          When changes are made, the updated policy will be published on this page and the effective date will be
+          updated.
+        </p>
+        <p>
+          We encourage users and parents/guardians to review this page periodically.
+        </p>
+      </article>
+
+      <!-- 14. Contact Us -->
+      <article class="policy-card contact-card" id="contact-us">
+        <div class="card-header-group">
+          <div class="card-icon"><svg>
+              <use href="#icon-mail" />
+            </svg></div>
+          <h2 class="card-title"><span class="section-num">14.</span> Contact Us</h2>
+        </div>
+        <p>
+          If you have questions, concerns, or requests regarding this Privacy Policy or Arrow Game's privacy practices,
+          please contact:
+        </p>
+
+        <ul class="feature-list" style="margin-top: 14px;">
+          <li><strong>Developer / Publisher:</strong> PreeTech</li>
+          <li><strong>Application:</strong> Arrow Game</li>
+        </ul>
+
+        <div class="email-box">
+          <div>
+            <div
+              style="font-size: 0.8rem; color: var(--text-muted); text-transform: uppercase; letter-spacing: 0.05em; margin-bottom: 4px;">
+              Official Support Email</div>
+            <div class="email-text">[abhishek.saspana@gmail.com]</div>
+          </div>
+          <span class="copy-badge">Action Required</span>
+        </div>
+      </article>
+
+      <!-- 15. Summary -->
+      <article class="policy-card summary-card" id="summary-section">
+        <div class="card-header-group">
+          <div class="card-icon"><svg>
+              <use href="#icon-check-circle" />
+            </svg></div>
+          <h2 class="card-title"><span class="section-num">15.</span> Summary</h2>
+        </div>
+        <p>In simple terms:</p>
+        <ul class="feature-list check-list">
+          <li>Arrow Game is designed as a family-friendly game.</li>
+          <li>Game progress and gameplay information can be stored locally on the device.</li>
+          <li>We do not sell personal information.</li>
+          <li>We do not intentionally collect contact lists or precise location information.</li>
+          <li>The game is designed to minimize unnecessary personal-data collection.</li>
+          <li>Any future third-party services or data practices will be reflected in an updated Privacy Policy.</li>
+        </ul>
+      </article>
+
+    </main>
+  </div>
+
+  <!-- Footer -->
+  <footer class="site-footer">
+    <div class="footer-container">
+      <div class="footer-brand">
+        <svg style="width:24px; height:24px; fill:none; stroke:var(--accent-gold); stroke-width:2;">
+          <use href="#icon-target" />
+        </svg>
+        <span>Arrow Game</span>
+      </div>
+      <p style="margin-bottom: 0;">Published by <strong>PreeTech</strong>. Designed for family-friendly, privacy-first
+        mobile gaming.</p>
+      <div class="footer-links">
+        <a href="#info-handled">Data Handled</a>
+        <a href="#local-storage">Local Storage</a>
+        <a href="#childrens-privacy">Children's Privacy</a>
+        <a href="#contact-us">Contact Us</a>
+      </div>
+      <p style="font-size: 0.8rem; color: var(--text-subtle); margin-top: 8px;">
+        &copy; 2026 PreeTech. All rights reserved. • Effective Date: October 1, 2026
+      </p>
+    </div>
+  </footer>
+
+  <!-- Back to Top Floating Button -->
+  <button class="back-to-top" id="backToTopBtn" aria-label="Back to top">
+    <svg>
+      <use href="#icon-arrow-up" />
+    </svg>
+  </button>
+
+  <!-- Vanilla JavaScript -->
+  <script>
+    document.addEventListener('DOMContentLoaded', function () {
+      // 1. Mobile TOC Toggle
+      const mobileTocBtn = document.getElementById('mobileTocBtn');
+      const tocSidebar = document.getElementById('tocSidebar');
+
+      if (mobileTocBtn && tocSidebar) {
+        mobileTocBtn.addEventListener('click', function () {
+          const isOpen = tocSidebar.classList.toggle('mobile-open');
+          mobileTocBtn.classList.toggle('open', isOpen);
+          mobileTocBtn.setAttribute('aria-expanded', isOpen);
+        });
+      }
+
+      // Close mobile TOC when link clicked
+      const tocLinks = document.querySelectorAll('.toc-link');
+      tocLinks.forEach(link => {
+        link.addEventListener('click', function () {
+          if (window.innerWidth <= 992 && tocSidebar.classList.contains('mobile-open')) {
+            tocSidebar.classList.remove('mobile-open');
+            mobileTocBtn.classList.remove('open');
+            mobileTocBtn.setAttribute('aria-expanded', 'false');
+          }
+        });
+      });
+
+      // 2. Active Section Highlight in Sidebar on Scroll
+      const articles = document.querySelectorAll('article[id]');
+
+      function highlightActiveSection() {
+        let scrollY = window.pageYOffset;
+
+        articles.forEach(current => {
+          const sectionHeight = current.offsetHeight;
+          const sectionTop = current.offsetTop - 120;
+          const sectionId = current.getAttribute('id');
+          const correspondingLink = document.querySelector('.toc-link[href*=' + sectionId + ']');
+
+          if (correspondingLink) {
+            if (scrollY > sectionTop && scrollY <= sectionTop + sectionHeight) {
+              correspondingLink.classList.add('active');
+            } else {
+              correspondingLink.classList.remove('active');
+            }
+          }
+        });
+      }
+
+      window.addEventListener('scroll', highlightActiveSection);
+
+      // 3. Back To Top Button Visibility & Click
+      const backToTopBtn = document.getElementById('backToTopBtn');
+
+      window.addEventListener('scroll', function () {
+        if (window.pageYOffset > 400) {
+          backToTopBtn.classList.add('visible');
+        } else {
+          backToTopBtn.classList.remove('visible');
+        }
+      });
+
+      backToTopBtn.addEventListener('click', function () {
+        window.scrollTo({
+          top: 0,
+          behavior: 'smooth'
+        });
+      });
+    });
+  </script>
+</body>
+
+</html>
